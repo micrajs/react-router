@@ -1,6 +1,6 @@
 {
   "name": "@micra/react-router",
-  "version": "0.0.0",
+  "version": "0.1.0-next.0",
   "description": "Micra's React.js bindings for the SPA router.",
   "repository": {
     "type": "git",
