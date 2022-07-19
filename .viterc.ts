@@ -4,7 +4,7 @@ import {cwd} from '@micra/vite-config/utilities/cwd';
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: [],
+      external: ['react', '@micra/core', '@micra/spa-router'],
       input: {
         index: cwd('index.ts'),
       },
